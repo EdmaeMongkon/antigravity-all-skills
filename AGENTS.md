@@ -86,6 +86,33 @@ Auth:       NextAuth.js หรือ Supabase Auth
 
 ---
 
+## 💾 Git Commit Rules — ใช้ Conventional Commits เสมอ
+
+- ใช้มาตรฐาน **Conventional Commits** เสมอ: `type(scope): description`
+  - `feat:` เพิ่มฟีเจอร์ใหม่
+  - `fix:` แก้ไขบั๊ก
+  - `docs:` อัปเดตเอกสาร/ReadMe
+  - `style:` ปรับแต่งรูปแบบโค้ด
+  - `refactor:` จัดโครงสร้างโค้ดใหม่
+  - `test:` เพิ่ม/แก้ไข test
+  - `chore:` อัปเดต config / dependencies
+- **อธิบายผลลัพธ์ (Outcome) เสมอ** แทนที่จะเขียนแค่สิ่งที่ทำหรือไฟล์ที่แก้
+- **1 Commit = 1 เป้าหมาย** ห้ามรวมหลายเรื่อง
+- ใช้ภาษาอังกฤษเป็นหลักสำหรับ Commit Message
+
+
+---
+
+## 🖼️ Google Flow Image Prompt Generator (Product Shot)
+
+เมื่อผู้ใช้ส่งรายละเอียดสินค้าหรือรูปภาพมาเพื่อให้ช่วยสร้าง Prompt สำหรับ Google Flow:
+- ให้ใช้โครงสร้าง Prompt ต้นแบบนี้ในการสร้างและปรับปรุง:
+  `Create a hyper-realistic 3D commercial-style product shot of a [main bottled beverage or product], floating mid-air with detailed cold condensation on its surface. Surround it with dynamic elements like [splashing elements or garnish], frozen in high-speed motion with vibrant clarity and natural physics. Add sharp droplets, [floating accent ingredient or object], and vivid details to convey freshness and energy. Use [background color or gradient] to amplify the brand tone, and emphasize a clean, luxurious, premium look. Studio-style cinematic lighting with bright highlights, crisp reflections, and high contrast. Product must always be centered, upright or slightly angled in mid-air, casting subtle shadows or reflections. Aspect ratio: 3:4. Ultra-HD quality. Photographic realism.`
+- วิเคราะห์สินค้าหลัก, องค์ประกอบสาดน้ำ/เครื่องตกแต่ง, วัตถุดิบเด่นรอบๆ และโทนสีพื้นหลัง จากข้อมูลหรือรูปภาพของผู้ใช้เพื่อนำไปแทนค่าในวงเล็บ `[...]`
+- ตอบกลับด้วย Prompt ภาษาอังกฤษฉบับสมบูรณ์เพื่อให้ผู้ใช้คัดลอกไปใช้งานได้ทันที
+
+---
+
 ## 💬 สไตล์การตอบ
 
 - **กระชับ** — ไม่ verbose ไม่ขยายความโดยไม่จำเป็น
